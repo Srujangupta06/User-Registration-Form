@@ -35,7 +35,9 @@
                   value=""
                   required
                 />
-                
+                <div class="invalid-feedback">
+                  First Name should not be Empty
+                </div>
               </div>
               <div class="col-md-4">
                 <label for="validationCustom02" class="form-label"
@@ -46,11 +48,24 @@
                   class="form-control"
                   id="validationCustom02"
                   value=""
+                />
+              </div>
+
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="validationCustom07"
+                  value=""
                   required
                 />
-                
+                <div class="invalid-feedback">Password should not be Empty</div>
               </div>
-              <div class="col-md-4">
+
+              <div class="col-12">
                 <label for="validationCustomUsername" class="form-label"
                   >Email</label
                 >
@@ -121,7 +136,11 @@
               <div class="col-12 col-md-8">
                 <label id="validationCustom06"> Address </label>
                 <br />
-                <textarea rows="2" class="w-100 form-control" required></textarea>
+                <textarea
+                  rows="2"
+                  class="w-100 form-control"
+                  required
+                ></textarea>
                 <div class="invalid-feedback">
                   Please provide a valid Address.
                 </div>
@@ -132,9 +151,9 @@
                 </button>
               </div>
             </form>
-            <hr>
+            <hr />
             <span>
-                <a class="text-primary link" href="#">Already have an account?</a>
+              <a class="text-primary link" href="#">Already have an account?</a>
             </span>
           </div>
           <div class="col-lg-6 text-center d-lg-block d-none">
